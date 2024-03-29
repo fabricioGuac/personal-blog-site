@@ -1,0 +1,29 @@
+/*Uses flexbox layout, center the items vertically and horizontally with a margin top of 10% */
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+/* Adds a margin to the kermit class */
+.Kermit{
+    margin-right: 10px;
+}
+
+/* Sets a flexbox layout, sets the items vertically, aligns them to the top of the container and declares a margin to the left */
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    margin-left: 10px;
+}
+
+/* Sets the margin to the bottom and the font size for the diferents elements inside the .form class*/
+.form label,
+.form input,
+.form button,
+.form textarea {
+    margin-bottom: 10px; 
+    font-size: 25px;
+}

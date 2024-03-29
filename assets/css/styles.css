@@ -1,0 +1,65 @@
+/* Sets the body's color, adds padding, a font size and makes sure the body takes the viewport height */
+body {
+  background-color: #f0f8ff; 
+  padding: 10px; 
+  font-size: 16px; 
+  min-height: 100vh;
+}
+
+/* Applies in the header a flexbox layout, spaces the contents evenly, center items vertivcally, */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e29292; 
+  padding: 10px; 
+}
+
+/* Targets the h1 that is a child of the header to center it horizontally */
+header > h1{
+  margin: auto;
+}
+
+/* Sets a margin for the  top of the blog posts */
+.blog-posts {
+  margin-top: 20px; 
+}
+
+/*TSets the positio, display, with and height of the checkbox*/
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+  }
+  
+  /* Centers the element, turns it into a yellow circle, and sets the transition effect */
+  .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #FFD700; 
+    transition: background-color 0.3s;
+  }
+  
+  /* Makes the checkbox invisible */
+  input[type="checkbox"] {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* Targets the circle after a checked box and turns it gray*/
+  input[type="checkbox"]:checked + .circle {
+    background-color: #708090; 
+  }
+
+  /*This class turns the body dark and the letters white dependig if logic.js applies it or not */
+.Dark-mode{
+    background-color: #333;
+    color: #fff;
+}

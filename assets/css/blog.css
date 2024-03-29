@@ -1,0 +1,29 @@
+/*Changes the font size for the a element, removes decoration and aligns it to the center */
+a{
+    font-size: 20px;
+    text-decoration: none;
+    margin: auto;
+}
+
+/* Sets backgroun color, adds padding, margin top, a flexbox layout and center items vertically */
+footer {
+    background-color: #e29292; 
+    padding: 10px; 
+    margin-top: auto; 
+    display: flex;
+    align-items: center;
+}
+
+/* Sets the margin for the button, background color, color, adds the pointer effect and a sets the transition effect */
+#back{
+    margin-right: 30px;
+    background-color: rgb(122, 211, 122);
+    color: rgb(211, 76, 76);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Makes it so that when it's hovered grows 20% */
+#back:hover{
+    transform: scale(1.2);
+}
