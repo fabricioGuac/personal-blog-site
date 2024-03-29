@@ -20,10 +20,6 @@ header > h1{
   margin: auto;
 }
 
-/* Sets a margin for the  top of the blog posts */
-.blog-posts {
-  margin-top: 20px; 
-}
 
 /*TSets the positio, display, with and height of the checkbox*/
 .switch {

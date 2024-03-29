@@ -14,6 +14,32 @@ footer {
     align-items: center;
 }
 
+/* Adds an undeline to the titles */
+h2{
+    text-decoration: underline;
+}
+
+/* Sets the font size and font family for the p element */
+p{
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+/* targets the 3erd elementi un the div if it's a p element turning it red, smaller than the first and set to the bottom of it's container */
+div p:nth-child(3){
+    font-size: 15px;
+    color: red;
+    margin-bottom: 0;
+} 
+
+/* Targets the divs in the blog-posts class to separate them 20px top, separate the contents 1% from the left and give it a purple border */
+.blog-posts > div{
+    padding-left: 1%;
+    margin-top: 20px;
+    border-style: solid;
+    border-color: #6a59ca;
+}
+
 /* Sets the margin for the button, background color, color, adds the pointer effect and a sets the transition effect */
 #back{
     margin-right: 30px;

@@ -6,6 +6,19 @@ main{
     margin-top: 10%;
 }
 
+input:valid{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* Sets the top margin, font family, center the text, sets colors for background and text and underlines it */
+h3{
+    margin-top: 5%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-color: red;
+    text-decoration: underline;
+    color: yellow;
+}
 /* Adds a margin to the kermit class */
 .Kermit{
     margin-right: 10px;

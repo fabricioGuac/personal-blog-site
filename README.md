@@ -2,7 +2,7 @@
 
 ## Description 
 
-This project will create a personal blog so I can showcase my thoughts and experiences.
+This project creates a simple blog site of personal use leveraging localstorage. This way the user can showcase their posts without the need for external databases.
 
 ## Instalation
 
@@ -10,7 +10,7 @@ N/A
 
 ## Usage
 
-
+To use this blog fill the form, press the submit button, you will be redirected to the displayed posts and if you wish to add more posts press the back button to return to the form and continue adding posts as you
 
 ## Credits
 
@@ -18,11 +18,13 @@ N/A
 
 ## Screenshot displaying the deployed site
 
+![Blog's form](./assets/images/blogForm.png)
 
+![Blog's posts](./assets/images/blogposts.png)
 
 ## URL to the deployed site
 
-
+https://fabricioguac.github.io/personal-blog-site/
 
 ## License
 
